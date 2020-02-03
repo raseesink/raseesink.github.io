@@ -7,3 +7,9 @@ body {
 }
 
 .widthmargin { margin: 0 0 15px 15px; }
+
+/* header */
+div.header { background-image:url("../img/header.png"); background-size: cover; background-position: center center; } 
+div.header { font:16px Verdana, Sans-serif; text-align:right; color:#eee }
+div.header { margin:0 auto 5px; border:1px solid #222; padding:10px;}
+div.headertext  { position: relative; left: -20px; }
