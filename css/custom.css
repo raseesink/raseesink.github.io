@@ -14,13 +14,24 @@ div.header { font:16px Verdana, Sans-serif; text-align:right; color:#eee }
 div.header { margin:0 auto 5px; border:1px solid #222; padding:10px;}
 div.headertext  { position: relative; left: -20px; }
 
+/* navigation styles */
+nav { display:block; margin:0 auto 5px; border:1px solid #222; position:relative; background-color:#5f5f5f; font:16px Verdana, Sans-serif; }
+nav ul { padding:0; margin:0; }
+nav li { position:relative; float:left; list-style-type:none; }
+nav ul:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+nav li a { display:block; padding:10px 20px; border-left:1px solid #999; border-right:1px solid #222; color:#eee; text-decoration:none; }
+nav li:first-child a { border-left:none; }
+nav li:last-child a { border-right:none; }
+nav a span { display:block; float:right; margin-left:5px; }
+nav ul a:hover { background-color:#555; color: white; }
+
 /* blue gradient background: https://cssgradient.io/ */
 .bluegradient {
     background: rgb(0,65,116);
     background: linear-gradient(179deg, rgba(0,65,116,1) 0%, rgba(0,158,225,1) 100%);
 }
 
-/* links */
+/* url links in content */
 article a:link {color: white; text-decoration: underline; }
 article a:active {color: white; text-decoration: underline; }
 article a:visited {color: white; text-decoration: underline; }
