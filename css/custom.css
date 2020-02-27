@@ -32,6 +32,8 @@ nav ul a:hover { background-color:#555; color: white; }
     border: 1px solid rgb(0,65,116);
 }
 
+article h3 {padding-bottom: 10px;}
+
 /* url links in content */
 article a:link {color: white; text-decoration: underline; }
 article a:active {color: white; text-decoration: underline; }
